@@ -28,14 +28,14 @@ Customer churn is expensive, but not all churned customers cost the same. This p
 
 ## Dashboard Preview
 
-![Dashboard screenshot](powerbi/dashboard_screenshot.png)
+![Dashboard screenshot](dashboard_screenshot.png)
 
 ## Repo Structure
 
 ```
-/data/          → dataset (or link to Kaggle source)
-/notebook/      → churn_prediction.ipynb
-/powerbi/       → dashboard.pbix + screenshot
+churn_prediction_model.ipynb    → Python notebook (data prep, model, evaluation)
+churn_retention_dashboard.pbix  → Power BI dashboard file
+dashboard_screenshot.png        → dashboard preview image
 README.md
 ```
 
